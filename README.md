@@ -34,7 +34,7 @@ A modular CLI chatbot that connects to OpenAI's Chat API with support for custom
 Configure the chatbot using environment variables in your `.env` file:
 
 - `OPENAI_API_KEY`: Your OpenAI API key (required)
-- `OPENAI_MODEL`: Model to use (default: gpt-4)
+- `OPENAI_MODEL`: Model to use (default: gpt-4o-mini)
 - `MAX_TOKENS`: Maximum tokens per response (default: 1000)
 - `TEMPERATURE`: Response creativity (0.0-2.0, default: 0.7)
 - `SYSTEM_PROMPT`: Custom system prompt
